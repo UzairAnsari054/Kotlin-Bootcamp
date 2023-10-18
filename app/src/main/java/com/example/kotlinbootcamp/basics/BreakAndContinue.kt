@@ -1,4 +1,4 @@
-package com.example.kotlinbootcamp
+package com.example.kotlinbootcamp.basics
 
 fun main() {
     for (i in 1 until 20) {

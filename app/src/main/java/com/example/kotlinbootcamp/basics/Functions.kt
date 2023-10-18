@@ -1,4 +1,4 @@
-package com.example.kotlinbootcamp
+package com.example.kotlinbootcamp.basics
 
 fun main() {
     var result = add(5.5, 4.5)
