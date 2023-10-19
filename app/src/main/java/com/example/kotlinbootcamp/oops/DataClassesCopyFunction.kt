@@ -1,4 +1,4 @@
-package com.example.kotlinbootcamp
+package com.example.kotlinbootcamp.oops
 
 
 data class User(val id: Int, var name: String)

@@ -1,4 +1,4 @@
-package com.example.kotlinbootcamp
+package com.example.kotlinbootcamp.oops
 
 import java.lang.IllegalArgumentException
 

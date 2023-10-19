@@ -1,4 +1,4 @@
-package com.example.kotlinbootcamp
+package com.example.kotlinbootcamp.oops
 
 //Use Inheritance and Interface together
 
@@ -10,7 +10,7 @@ interface Drivable {
     }
 }
 
-class Carr(override var maxSpeed: Double): Drivable{
+class Carr(override var maxSpeed: Double): Drivable {
     override fun drive() =  "driving"
 
 }
