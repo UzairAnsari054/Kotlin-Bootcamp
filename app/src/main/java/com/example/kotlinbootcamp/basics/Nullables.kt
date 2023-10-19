@@ -14,4 +14,10 @@ fun main() {
     name = null
     var name2 = name ?: "Guest"
     println(name2)
+
+    // Example:
+    // In our db we have a list of user but we don't have the age of most of the users.
+    // So we make variable age as null, as if for a user we get the age then we'll display it,
+    // otherwise we won't display the age and the code will still runs without issues
+    var age: Int? =  null
 }
