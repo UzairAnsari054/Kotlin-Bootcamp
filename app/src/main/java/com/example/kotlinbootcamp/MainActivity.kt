@@ -10,3 +10,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
+
+//git config user.email  -> To check github email
+//git config user.name  -> To check github user name
+//git config user.name "email"  -> To point to specific github email
+//git config user.name "name" -> To point to specific github user name
