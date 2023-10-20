@@ -16,7 +16,7 @@ fun main(){
    }
 
     //Smart Cast
-    var obj1: Any = "This is string"
+    val obj1: Any = "This is string"
     if (obj1 !is String) {
         println("Not a string")
     } else {
@@ -25,16 +25,24 @@ fun main(){
     }
 
     //Explicit (unsafe) Cast
-    var str1: String = obj1 as String
+    val str1: String = obj1 as String
     println(str1.length)
 
-    //unsafe cast example
+    // Unsafe Cast Example
     var obj2: Any = 12
-    var str2: String = obj2 as String
-    println(str2)  // throws error
+//    var str2: String = obj2 as String
+//    println(str2)  // throws error
 
-    // safe cast example
-    var obj3: Any = 12
-    var str3: String? = obj3 as? String
-    println(str3)  // null
+    // Source and Target variable needs to be nullable for casting to work
+    val obj4: Any? = "Stringggg"
+    val str4: String? = obj4 as String?
+    println(str4)
+
+    // Safe Cast Example
+    val location: Any = "Mumbai"
+    val safeString: String? = location as? String
+    val safeInt: Int? = location as? Int
+    println(safeString)
+    println(safeInt)
+
 }
